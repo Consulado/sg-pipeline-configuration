@@ -12,7 +12,7 @@
 ################################################################################
 
 includes:
-- ./frameworks.yml
+  - ./frameworks.yml
 
 ################################################################################
 # location descriptors for apps used in this configuration
@@ -99,8 +99,8 @@ apps.tk-multi-workfiles.location:
 
 # workfiles2
 apps.tk-multi-workfiles2.location:
-  type: app_store
-  name: tk-multi-workfiles2
+  type: git
+  path: https://github.com/Consulado/tk-multi-workfiles2.git
   version: v0.12.2
 
 # dev utils
@@ -195,4 +195,4 @@ apps.tk-mari-projectmanager.location:
 
 ################################################################################
 # reference all of the common frameworks
-frameworks: '@frameworks'
+frameworks: "@frameworks"
