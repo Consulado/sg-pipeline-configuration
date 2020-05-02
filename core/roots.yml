@@ -47,7 +47,7 @@ primary:
 
   # these paths will be populated by the associated local storage in Shotgun
   # at setup time.
-  mac_path: /mnt/JOBS_WIP
+  mac_path: /Volumes/MEDIA/JOBS_WIP
   linux_path: /mnt/JOBS_WIP
   windows_path: J:\\JOBS_WIP
 
