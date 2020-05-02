@@ -28,4 +28,12 @@ def create(sg, project_id, log, **kwargs):
     """
     Insert post-project code here
     """
-    pass
+    try:
+        project_info = sg.find_one(
+            "Project", [["id", "is", project_id]], ["code", "tank_name"]
+        )
+        if not project_id.get("tank_name"):
+            sg.update("Project", project_id, {"tank_name": project_info.get("code")})
+            log.info("Project {} updated sucessfully".format(project_info.get("code")))
+    except Exception as e:
+        log.error("Fail while check project id {}, because {}".format(project_id, e))
