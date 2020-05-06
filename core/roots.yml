@@ -49,7 +49,7 @@ primary:
   # at setup time.
   mac_path: /Volumes/MEDIA/JOBS_WIP
   linux_path: /mnt/JOBS_WIP
-  windows_path: J:\\JOBS_WIP
+  windows_path: J:\JOBS_WIP
 
   # indicates that this is the default storage root
   default: true
