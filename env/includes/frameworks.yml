@@ -76,3 +76,10 @@ frameworks:
       version: v0.1.1
       type: app_store
       name: tk-framework-desktopclient
+
+  # desktopclient - A client for Shotgun Create
+  tk-framework-consuladoutils:
+    location:
+      type: git_branch
+      branch: master
+      path: https://github.com/Consulado/sg-pipeline-configuration.git
