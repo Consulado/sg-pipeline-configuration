@@ -105,7 +105,7 @@ apps.tk-multi-workfiles2.location:
   type: git_branch
   branch: master
   path: https://github.com/Consulado/tk-multi-workfiles2.git
-  version: 63a8c49
+  version: 9cab36f
 
 # dev utils
 apps.tk-multi-devutils.location:
