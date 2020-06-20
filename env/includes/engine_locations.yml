@@ -68,9 +68,10 @@ engines.tk-mari.location:
 
 # Maya
 engines.tk-maya.location:
-  type: app_store
-  name: tk-maya
-  version: v0.10.1
+  type: git_branch
+  branch: master
+  path: https://github.com/Consulado/tk-maya.git
+  version: 8f666b0
 
 # Motion Builder
 engines.tk-motionbuilder.location:
