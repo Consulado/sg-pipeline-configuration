@@ -296,9 +296,6 @@ paths:
   # The location of published maya files
   maya_shot_publish:
     definition: "@shot_root/publish/maya/{name}.v{version}.{maya_extension}"
-  # The location of published alembic files
-  maya_shot_alembic_publish:
-    definition: "@shot_root/publish/maya/{Asset}/{name}.v{version}.abc"
 
   #
   # Houdini
@@ -430,6 +427,9 @@ paths:
 
   asset_alembic_cache:
     definition: "@asset_root/publish/caches/{name}.v{version}.abc"
+
+  shot_alembic_cache:
+    definition: "@shot_root/publish/caches/{name}.v{version}.abc"
 
   #
   # Photoshop
