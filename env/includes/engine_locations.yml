@@ -71,7 +71,7 @@ engines.tk-maya.location:
   type: git_branch
   branch: master
   path: https://github.com/Consulado/tk-maya.git
-  version: 51c40db
+  version: 37a9059
 
 # Motion Builder
 engines.tk-motionbuilder.location:
