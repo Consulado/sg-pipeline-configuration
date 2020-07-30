@@ -73,6 +73,13 @@ engines.tk-maya.location:
   path: https://github.com/Consulado/tk-maya.git
   version: 37a9059
 
+# Substance Painter
+engines.tk-substancepainter.location:
+  type: git
+  branch: master
+  path: https://github.com/diegogarciahuerta/tk-substancepainter.git
+  version: v1.2.2
+
 # Motion Builder
 engines.tk-motionbuilder.location:
   type: app_store
