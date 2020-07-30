@@ -14,22 +14,23 @@ description: Apps and Engines when launching with a project only context.
 ################################################################################
 
 includes:
-- ./includes/frameworks.yml
-- ./includes/settings/tk-3dsmaxplus.yml
-- ./includes/settings/tk-3dsmax.yml
-- ./includes/settings/tk-desktop.yml
-- ./includes/settings/tk-flame.yml
-- ./includes/settings/tk-houdini.yml
-- ./includes/settings/tk-mari.yml
-- ./includes/settings/tk-maya.yml
-- ./includes/settings/tk-motionbuilder.yml
-- ./includes/settings/tk-nuke.yml
-- ./includes/settings/tk-photoshopcc.yml
-- ./includes/settings/tk-aftereffects.yml
-- ./includes/settings/tk-alias.yml
-- ./includes/settings/tk-vred.yml
-- ./includes/settings/tk-shell.yml
-- ./includes/settings/tk-shotgun.yml
+  - ./includes/frameworks.yml
+  - ./includes/settings/tk-3dsmaxplus.yml
+  - ./includes/settings/tk-3dsmax.yml
+  - ./includes/settings/tk-desktop.yml
+  - ./includes/settings/tk-flame.yml
+  - ./includes/settings/tk-houdini.yml
+  - ./includes/settings/tk-mari.yml
+  - ./includes/settings/tk-maya.yml
+  - ./includes/settings/tk-motionbuilder.yml
+  - ./includes/settings/tk-nuke.yml
+  - ./includes/settings/tk-photoshopcc.yml
+  - ./includes/settings/tk-aftereffects.yml
+  - ./includes/settings/tk-alias.yml
+  - ./includes/settings/tk-vred.yml
+  - ./includes/settings/tk-shell.yml
+  - ./includes/settings/tk-shotgun.yml
+  - ./includes/settings/tk-substancepainter.yml
 
 ################################################################################
 # configuration for all engines to load in a project context
@@ -52,6 +53,7 @@ engines:
   tk-vred: "@settings.tk-vred.project"
   tk-shell: "@settings.tk-shell.project"
   tk-shotgun: "@settings.tk-shotgun.project"
+  tk-substancepainter: "@settings.tk-substancepainter.project"
 
 ################################################################################
 # reference all of the common frameworks
