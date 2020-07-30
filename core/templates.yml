@@ -58,9 +58,8 @@ keys:
   texture_extension:
     type: str
     alias: extension
-
-    texture_name:
-      type: str
+  texture_name:
+    type: str
 
   # Represents the optional output name for frames written by the Shotgun Write Node
   nuke.output:
