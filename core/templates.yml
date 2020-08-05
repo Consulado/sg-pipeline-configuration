@@ -188,6 +188,7 @@ paths:
   # will be set within each template that uses the alias.
   shot_root: sequences/{Sequence}/{Shot}/{Step}
   asset_root: assets/{sg_asset_type}/{Asset}/{Step}
+  shader_root: shaders/{Asset}
   sequence_root: sequences/{Sequence}
 
   ##########################################################################################
@@ -301,6 +302,9 @@ paths:
   # The location of published maya files
   maya_shot_publish:
     definition: "@shot_root/publish/maya/{name}.v{version}.{maya_extension}"
+  # The location of published maya shaders
+  maya_shot_shader:
+    definition: "@shader_root/publish/maya/{name}.v{version}.{maya_extension}"
 
   #
   # Houdini
@@ -548,6 +552,9 @@ paths:
   # The location of published maya files
   maya_asset_publish:
     definition: "@asset_root/publish/maya/{name}.v{version}.{maya_extension}"
+  # The location of published maya shaders
+  maya_asset_shader:
+    definition: "@shader_root/publish/maya/{name}.v{version}.{maya_extension}"
 
   #
   # Houdini
