@@ -224,7 +224,7 @@ settings.tk-multi-publish2.maya.shot_step:
     - name: Publish to Shotgun
       hook: "{self}/publish_file.py:{engine}/tk-multi-publish2/basic/publish_asset_shader.py"
       settings:
-        Publish Template: maya_shot_shader
+        Publish Template: maya_asset_shader
   help_url: *help_url
   location: "@apps.tk-multi-publish2.location"
 

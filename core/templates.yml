@@ -302,9 +302,6 @@ paths:
   # The location of published maya files
   maya_shot_publish:
     definition: "@shot_root/publish/maya/{name}.v{version}.{maya_extension}"
-  # The location of published maya shaders
-  maya_shot_shader:
-    definition: "@shader_root/publish/maya/{name}.v{version}.{maya_extension}"
 
   #
   # Houdini
