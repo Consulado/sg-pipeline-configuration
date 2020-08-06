@@ -71,7 +71,7 @@ engines.tk-maya.location:
   type: git_branch
   branch: master
   path: https://github.com/Consulado/tk-maya.git
-  version: "3638432"
+  version: fd1dda6
 
 # Substance Painter
 engines.tk-substancepainter.location:
