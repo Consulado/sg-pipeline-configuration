@@ -83,9 +83,3 @@ frameworks:
       type: git
       path: https://github.com/Consulado/tk-framework-consuladoutils.git
       version: v0.1.6
-
-  # Unreal QT
-  tk-framework-unrealqt:
-    type: git
-    path: https://github.com/ue4plugins/tk-framework-unrealqt.git
-    version: v1.0.0
