@@ -77,12 +77,12 @@ frameworks:
       type: app_store
       name: tk-framework-desktopclient
 
-  # desktopclient - A client for Shotgun Create
+  # tk-framework-consuladoutils - Consulado utils framework
   tk-framework-consuladoutils_v0.x.x:
     location:
       type: git
       path: https://github.com/Consulado/tk-framework-consuladoutils.git
-      version: v0.1.6
+      version: v0.1.7
 
   # Unreal QT
   tk-framework-unrealqt_v1.x.x:
