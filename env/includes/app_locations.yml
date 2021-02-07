@@ -48,7 +48,7 @@ apps.tk-multi-loader2.location:
   type: git_branch
   branch: master
   path: https://github.com/Consulado/tk-multi-loader2.git
-  version: 12e9991
+  version: 65af907
 
 # publish2
 apps.tk-multi-publish2.location:
